@@ -5,9 +5,9 @@ public class Serveur {
     public static void main(String[] args) {
         try {
             ServerSocket serverSocket = new ServerSocket(8080); // Port utilisé par le serveur
-            InetAddress addr = InetAddress.getByName("127.0.0.1");
+            
             InetAddress localHost = InetAddress. getLocalHost();
-            System.out.println(addr);
+           
        	    System.out.println(localHost);
         
             System.out.println("Serveur en attente de connexion...");
